@@ -16,5 +16,6 @@ for number in numbers:
     else:
         not_primes.append(number)
 
+del not_primes[0]
 print("Primes:", primes)
 print("Not primes:", not_primes)
